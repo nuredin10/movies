@@ -1,0 +1,36 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 4%;
+    width: 96%;
+    .card{
+        
+        width: 16%;
+        margin: 1%
+    }
+}
+.movies-title{
+    text-align: center;
+}
+
+
+.search{
+    margin: 2% 0;
+    padding-left: 5%;
+    input{
+        background-color: rgb(41, 40, 40);
+        border: none;
+        border-radius: 30px;
+        width: 18%;
+        height: 22px;
+        color: white;
+        padding-left: 13px;
+        outline: none;
+    }
+    button{
+        width: 6%;
+        height: 22px;
+        background-color: #ff1900;
+        border: none;
+    }
+}
