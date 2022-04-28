@@ -40,6 +40,7 @@ const HeroSlide = () => {
                     delay: 4000,
                     disableOnInteraction: false
                 }}
+                // arrows={true}
             >
                 {
                     movieItems.map((item, i) => (
